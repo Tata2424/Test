@@ -1,0 +1,4 @@
+ public static int BuyBitcoin(int BitcoinPrice, int CustomerMoney) {
+   int NumberBitcoin = CustomerMoney / BitcoinPrice;
+   return NumberBitcoin;
+}
